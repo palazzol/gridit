@@ -28,7 +28,7 @@ class MainGUI(ttk.Frame):
 
     def __create_main_window(self):
         """ Create main window GUI """
-        self.__default_title = 'Manual image annotation with polygons'
+        self.__default_title = 'Gridit v0.1'
         self.master.title(self.__default_title)
         self.master.geometry(self.__config.get_win_geometry())  # get window size/position from config
         self.master.wm_state(self.__config.get_win_state())  # get window state
